@@ -1,0 +1,286 @@
+body{
+margin: 0px;
+padding: 0px;
+font-family: sans-serif;
+}
+h1{
+    font-weight: bold;
+}
+#topbar{
+   
+    color: white;
+    padding-top: 5px;
+    background-color: #106eea;
+}
+#navsec ul a{
+    color:black;
+   padding-left:30px;
+   padding-right:30px;
+}
+
+
+#btnlets{
+    color:#106eea;
+    border-color: black;
+ 
+}
+
+.homeimg{
+    background: url('images/soln.jpg') no-repeat ;
+    background-size: cover;
+   height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;width: 100%;
+}
+.homeimg p{
+    color:white;
+    font-weight: bold;
+}
+#aboutus{
+    padding-top: 80px;
+    width:100%;
+   padding-bottom:80px;
+}
+#aboutus h6{
+    color: #106eea;
+    font-size: 16px;
+}
+
+.list-with-check-icon li {
+    list-style-type: none;
+    padding-left: 1.5em;
+    position: relative;
+}
+
+.list-with-check-icon li::before {
+    content: "\f00c";
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    display: inline-block;
+    width: 1.5em;
+    position: absolute;
+    left: 0;
+    color: #026ee1;
+}
+#iddes{
+    margin-left: 20px;
+}
+.image-container {
+    position: relative;
+    width: 200px; 
+  }
+  .image-container img {
+    position: absolute;
+    width: 100%;
+    height: auto;
+  }
+  #about1{
+    height:400px;
+  }
+#imgg1{
+    width:300px;
+    height:200px;
+    margin-left: 40px;
+    z-index: -1; border-radius: 15px;
+}
+#imgg2{
+    width:350px;
+    height:250px;
+    margin-left: 100px;
+    margin-top:90px;
+    z-index: 1; border-radius: 15px;
+}
+#imgg3{
+    width:350px;
+    height:250px;
+    z-index: -1;
+    margin-top:150px;
+    border-radius: 15px;
+}
+#servicesec{
+    padding-top: 70px;
+    padding-bottom: 90px;
+}
+
+#sercard{
+  border:  black 3px;
+  border-radius: 2px; 
+}
+.card{
+    align-items: center;
+    color:#026ee1;
+}
+#servp{
+    color: #106eea;
+}
+
+
+.project-img{
+    background: url('images/business.jpg') no-repeat ;
+    background-size: cover;
+    height:auto;
+    display: flex;
+  color: white;
+  width: 100%;
+   padding-bottom: 70px;
+}
+#projwri{
+margin-top: 60px;
+    justify-content:center ;
+    align-items: center;
+}
+#projwri2{
+    margin-top: 90px;
+        justify-content:center ;
+        align-items: center;
+    }
+ #projstyle{
+        background-color: rgb(255, 255, 255);
+        color: black;
+         border:2px solid rgb(164, 164, 164);
+         border-radius:5px;
+    }
+.gallery{
+        text-align: center;
+        margin-top: 70px;
+        margin-bottom: 90px;
+    }
+    .gallery h5,p{
+        color:black;
+    }
+ .gallery h6{
+        color:#106eea;
+    }
+.gallery img{
+        width:100%;
+        height:250px;
+    }
+.globalsoln{
+    background: linear-gradient( #150bd0 50%, #dedddd 50%);
+    
+    }
+.content {
+        padding: 20px;
+      }
+.cardnew{
+    background-color: #ffffff;
+}
+#gsoln1{
+    margin-top: 80px;
+    margin-bottom: 70px;
+    font-weight: bold;
+}
+#cardnew1{
+    padding:25px;
+    height:450px;
+    width:400px;
+    border: 2px  ;
+    border-radius: 5px;
+}
+#cardnew1 h5{
+    color: #007bff;
+}
+#b1{
+    width:100%;
+}
+#gsoln2{
+    padding-top: 50px;
+    color:white;
+    
+}
+
+#gsoln2 p{
+    color:white;
+}
+#projectno{
+    color:white;
+  padding: 0px;
+  margin-top: 20px;
+}
+#projectno p{
+    color:white;
+}
+.expert{
+    background-color: #f7f4f4;
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+.expert p{
+    color:#007bff
+}
+.expert h5,h6{
+    color:black;
+}
+#cardid{
+    padding: 20px;
+}
+.expert img{
+    border-radius: 3px;
+
+}
+.expert i{
+    color:#106eea;
+}
+#blogimg{
+    width:100%;
+    height:280px;
+    padding:20px;
+    border-radius: 8px;
+}
+.blog h6{
+    color: #007bff;
+
+}
+.blog{
+    text-align: center;
+    background-color: #f0f0f0;
+    
+    padding-bottom: 70px;
+}
+#blogcard{
+    border-radius: 10px;
+    text-align: left;
+}
+#blogcard i{
+    color: #026ee1;
+}
+#blgjpg{
+    width:190px;
+    height: 110px;
+    margin:10px;
+   
+}
+.companylogo{
+  
+    background-color: #f0f0f0;
+}
+.footer1{
+    color: rgb(209, 209, 209);
+    background-color: #2b2b2b;
+}
+.footer1 p{
+    color: #b7b7b7;
+}
+#footlink{
+    list-style: none;
+}
+.footer1 h4{
+color: white;
+}
+.footer1 i{
+    margin:10px;
+    font-size: 24px;
+}
+.footer{
+    background-color: black;
+    color:#f6f6f6;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+
+
+                
